@@ -1,7 +1,7 @@
 import socket
 import pickle
 
-HOST = "10.11.0.13"
+HOST = "localhost"
 PORT = 5000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
