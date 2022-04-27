@@ -43,7 +43,7 @@ def get_top_five_words(filename):
 #=========================== SERVIDOR ============================#
 #=================================================================#
 
-HOST = ''
+HOST = 'localhost'
 PORT = 5000
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
